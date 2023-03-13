@@ -38,54 +38,32 @@
 
                   <tr>
                     <th>No</th>
-                    <th>Dealer/Merk</th>
-                    <th>Nama Mobil</th>
-                    <th>Pintu</th>
-                    <th>Jumlah Kursi</th>
-                    <th>Jumlah Kategori</th>
-                    <th>Deskripsi</th>
-                    <th>Harga</th>
-                    <th>Foto</th>
                     <th>Aksi</th>
+                    <th>Status</th>
+
                   </tr>
                   </thead>
 
-                  @foreach ($mobilBaru as $no=>$mobil)
+                  @foreach ($jual as $no=>$jual)
+
+
                   <tbody>
                   <tr>
                     <td scope="row">{{$no+1}}</td>
-                    <td>{{$mobil->dealer['nama_dealer']}}</td>
-                    <td>{{$mobil->nama}}</td>
-                    <td>{{$mobil->pintu['jumlah']}} Pintu</td>
-                    <td>{{$mobil->kursi['jumlah']}} Kursi</td>
-                    <td>{{$mobil->kategori}}</td>
-                    <td>{{$mobil->deskripsi}}</td>
-                    <td>{{$mobil->harga}}</td>
+                    <td><a href="/detail-penjualan/{{$jual->id_pengajuan_jual}}"><button class="btn btn-primary">Detail</button></a></td>
 
-                    @if ($mobil->foto == NULL)
-                        <td>Tidak ada Foto</td>
-                    @else
-                        <td>{{$mobil->foto}}</td>
-                    @endif
-                    <td><a href="detail-data-mobil-baru/{{$mobil->id_mobil}}"><button type="button" class="btn btn-info">Detail</button></a></td>
-
+                    <td><button class="btn btn-warning">Pending</button></td>
 
                   </tr>
-
-                  </tbody>
                   @endforeach
+                  </tbody>
+                  {{-- @endforeach --}}
                   <tfoot>
                   <tr>
                     <th>No</th>
-                    <th>Dealer/Merk</th>
-                    <th>Nama Mobil</th>
-                    <th>Jumlah Kursi</th>
-                    <th>Jumlah Kategori</th>
-                    <th>Kategori</th>
-                    <th>Deskripsi</th>
-                    <th>Harga</th>
-                    <th>Foto</th>
                     <th>Aksi</th>
+                    <th>Status</th>
+
                   </tr>
                   </tfoot>
                 </table>
