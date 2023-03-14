@@ -82,7 +82,7 @@
               </ul>
               <div class="d-flex align-items-center bg-light p-3">
                 <span>$150/day</span>
-                <a href="contact.html" class="ml-auto btn btn-primary">Rent Now</a>
+                <a href="contact.html" class="ml-auto btn btn-primary">Ajukan</a>
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@
                 </ul>
 
                 <div class="d-flex action">
-                  <a href="contact.html" class="btn btn-primary">Rent Now</a>
+                  <a href="contact.html" class="btn btn-primary">Ajukan</a>
                 </div>
 
               </div>

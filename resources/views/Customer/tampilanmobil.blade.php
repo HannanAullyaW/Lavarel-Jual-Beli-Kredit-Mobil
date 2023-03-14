@@ -54,7 +54,7 @@
                   </li>
                 </ul>
                 <div class="d-flex action">
-                  <a href="contact.html" class="btn btn-primary">Rent Now</a>
+                  <a href="contact.html" class="btn btn-primary">Ajukan</a>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@
                   </li>
                 </ul>
                 <div class="d-flex action">
-                  <a href="contact.html" class="btn btn-primary">Rent Now</a>
+                  <a href="contact.html" class="btn btn-primary">Ajukan</a>
                 </div>
               </div>
             </div>

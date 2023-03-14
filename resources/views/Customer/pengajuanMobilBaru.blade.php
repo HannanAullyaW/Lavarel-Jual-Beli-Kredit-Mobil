@@ -20,11 +20,11 @@
       <div class="container">
         <div class="row align-items-center position-relative">
 
-          <div class="col-3 ">
+          <!-- <div class="col-3 ">
             <div class="site-logo">
-              <a href="index.html">CarRent</a>
+              <a href="index.html">Car list</a>
             </div>
-          </div>
+          </div> -->
 
           <div class="col-9  text-right">
 
