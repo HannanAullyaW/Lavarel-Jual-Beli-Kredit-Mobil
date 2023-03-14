@@ -48,7 +48,7 @@
 
             <div class="col-3 ">
               <div class="site-logo">
-                <a href="index.html">CarRent</a>
+                <a href="index.html">Car List</a>
               </div>
             </div>
 
@@ -82,7 +82,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 text-center">
-              <h1>Our For Rent Cars</h1>
+              <h1>Our Cars</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
           </div>
